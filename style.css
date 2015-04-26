@@ -1,0 +1,197 @@
+/* 
+Theme Name: Tangerine Theme
+Theme URI: http://www.tomchapman.us
+Description: A Customized child theme for Responsive Pro 
+Template: responsivepro
+Version: 1.0.0
+Author: Tom Chapman 
+Author URI: http://www.tomchapman.us
+License: GNU General Public License
+License URI: license.txt 
+
+
+*/
+
+body {
+    background-color: #3B4149;
+}
+#header {
+    background-color: #f97960;
+    height: 280px;
+}
+#logo {
+    width: 100%;
+    position: relative;
+    top: 30px;
+}
+.site-name {
+    text-align: center;
+}
+.site-name a {
+    color: white;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+.site-description {
+    color: white;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+/* menu styles */
+.menu {
+    background-color: #ef6b51;
+    background-image: none;
+    position: relative;
+    bottom: -92px;
+    
+    
+}
+.menu li a {
+    font-size: 16px;
+    font-weight: 300;
+    border-left: none;
+    text-shadow: none;
+    color: #fff;
+}
+.menu li.current_page_item {
+    background-color: #ededed;
+}
+.menu li.current_page_item a {
+    background-color: #f97960;
+    color: white;
+}
+.menu li.current_page_item a:hover {
+    background-color: #f97960;
+    background-image: none;
+    color: white;
+}
+.menu li a:hover {
+    background-color: #f97960;
+    background-image: none;
+    color: white;
+}
+.main-nav {
+    width: 100%;
+    
+    
+}
+/*top menu items*/
+.top-menu {
+    display: block;
+    width: 100%;
+    background-color: #1F282F;
+    padding: 6px 0px 6px 0px;
+    position: relative;
+    top: -10px;
+}
+.top-menu li a {
+    color: white;
+}
+.top-menu li a:hover {
+    color: #7f868a;
+    background-color: #222222;
+    text-decoration: underline;
+}
+/* end menu styles */
+
+/* post styles */
+#wrapper {
+    background-color: #46535D;
+    border-radius: 0px;
+    border: none;
+}
+#wrapper p {
+    color: #9a9fa2;
+    font-size: 1.3em;
+    line-height: 26px;
+    font-family: 'Lato', sans-serif;
+}
+.entry-title {
+    font-family: 'Lato', sans-serif;
+    color: #f97960;
+}
+.entry-title a {
+    color: #f97960;
+}
+.entry-title a:hover {
+    color: #ef6b51;
+}
+.previous a:hover{
+    color: #f97960;
+}
+.next a:hover {
+    color: #f97960;
+}
+#respond {
+    background-image: none;
+    background-color: #3e4a53;
+    border: none;
+    border-radius: 0px;
+}
+.comment-reply-title {
+    color: #dcdedf;
+    font-family: 'Lato', sans-serif;
+}
+
+.widget-title {
+    font-family: 'Lato', sans-serif;
+    color: #dcdedf;
+}
+.widget-wrapper {
+    background-color: transparent;
+    border: none;
+}
+.widget-wrapper a {
+    color: #f97960;
+}
+
+.post-entry .featured-image {
+    float: left;
+    padding-right: 8px;
+}
+.post-entry p {
+    clear: both;
+}
+.post-entry a {
+    color: #f97960;
+}
+.post-entry a:hover {
+    color: #f97960;
+    text-decoration: underline;
+}
+.post-entry a:hover {
+    color: #ef6b51;
+    text-decoration: underline;
+}
+.cat-links {
+    color: #f97960;
+}
+.cat-links a {
+    color: #ef6b51;
+    text-decoration: underline;
+}
+.post-meta a {
+    color: white;
+}
+.post-meta a:hover {
+    color: #f97960;
+}
+/*footer styles */
+#footer {
+    background-color: #262F36;
+    max-width: 940px;
+    color: #7f868a;
+}
+#footer a {
+    color: #f97960;
+}
+#footer a:hover {
+    color: #ef6b51;
+    text-decoration: underline;
+}
+#footer-wrapper {
+    color: #7f868a;
+}
+.copyright a {
+    color: white;
+}
